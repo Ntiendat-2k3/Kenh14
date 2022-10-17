@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DynaPuff', cursive;
+}
+.banner
+{
+    height: 130px;
+    background: url(images/Capture.PNG) no-repeat center;
+    background-size: cover;
+}
+.menu
+{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background: #ad1c22;
+    padding-left: 300px;
+    transition: 0.4s;
+}
+.menu a  
+{
+    color: white;
+    padding: 0 34px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu.menuden
+{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    background: #1d1d1d;
+}
+.chungtoi.Qcdunglai
+{
+    position: fixed;
+    top: 49px;
+}
+
+    /* Load  */
+.s3
+{
+    opacity: 0;
+}
+.s3.dilen 
+{
+    animation: cdlen 1s forwards;
+}
+@keyframes cdlen 
+{
+    from
+    {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to 
+    {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
